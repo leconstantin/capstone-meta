@@ -1,7 +1,17 @@
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 export default function App() {
   return (
-    <main>
-      <h1 className="text-3xl font-bold underline"> Home page now</h1>
-    </main>
+    <>
+      <div className="flex justify-between items-center px-4 py-2 shadow-md">
+        <Header />
+        <Nav />
+      </div>
+
+      <Main />
+      <Footer />
+    </>
   );
 }
