@@ -2,9 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto">
-      © 2024 little lemon. All rights reserved.
-    </footer>
+    <footer className="mt-20">© 2024 little lemon. All rights reserved.</footer>
   );
 };
 
